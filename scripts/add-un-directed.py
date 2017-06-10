@@ -5,13 +5,14 @@ import csv
 
 csv_row_delimiter = '\t'
 
-inputPathFile   = ''
-outputPathFile  = ''
-graphType = '' #Directed Undirected 
+inputPathFile = ''
+outputPathFile = ''
+graphType = ''  # Directed Undirected
+
 
 def main():
-    if(len(sys.argv) < 4):
-        print(getTime() + 
+    if len(sys.argv) < 4:
+        print(get_time() +
         " Usage: python /path/to/file.py \
         /path/to/input.tsv \
         /path/to/output.tsv \
@@ -22,14 +23,16 @@ def main():
     inputPathFile = sys.argv[1]
     outputPathFile = sys.argv[2]
     graphType = sys.argv[3]
-    print(getTime() + "Start")
-    writeOutFile()
-    print(getTime() + "Stop")
+    print(get_time() + "Start")
+    write_out_file()
+    print(get_time() + "Stop")
 
-def getTime():
-    return "["+ str(datetime.now()) +"]"
 
-def writeOutFile():
+def get_time():
+    return "[" + str(datetime.now()) + "]"
+
+
+def write_out_file():
     with open(outputPathFile, 'w') as csvfile1:
         writer = csv.writer(csvfile1, delimiter=csv_row_delimiter)
         writer.writerow(['Source', 'Target', 'Type'])
@@ -42,5 +45,5 @@ def writeOutFile():
                 writer.writerow([col1, col2, graphType])
 
 
-#EXECUTE
+# EXECUTE
 main()
