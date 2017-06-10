@@ -33,10 +33,23 @@ def main():
     for c in max_cliques:
         print(c)
 
-    print("\nLouvain heuristices graph partitions:")
+    print("\nLouvain dendrogram (partions tree):")
+    dendrogram = cm.generate_dendrogram(G)
+    print("(level\tpartition)")
+    count = 0
+    for d in dendrogram:
+        print(str(count) + '\t' + str(d))
+        count += 1
+
+    print("\nLouvain best partition:")
     partition = cm.best_partition(G)
-    #  for (n, p) in partition:
-    print(partition)
+    print("(partion\tnode)")
+    for node, part in partition.items():
+        print(str(part) + '\t' + str(node))
+
+    print("\nLouvain graph modularity:")
+    modularity = cm.modularity(partition, G)
+    print(modularity)
 
 # EXECUTION
 main()
