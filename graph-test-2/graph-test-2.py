@@ -4,9 +4,12 @@ import os
 
 
 def main():
-    path_file = os.getcwd() + '/data.edges'
-    G = nx.read_edgelist(path_file, nodetype=int, delimiter=' ',)
-    G.add_node(7)
+
+    #  path_file = os.getcwd() + '/data.edges'
+    #  G = nx.read_edgelist(path_file, nodetype=int, delimiter=' ',)
+    path_file = os.getcwd() + '/user_friends.dat'
+    G = nx.read_edgelist(path_file, nodetype=int, delimiter='\t',)
+    #  G.add_node(7)
 
     print("\nNodes:")
     for n in G.nodes():
@@ -28,11 +31,13 @@ def main():
 
     #  G.remove_nodes_from(G.selfloop_edges()), G.remove_nodes_from(nx.isolates(G))
 
+
     print("\nMaximal cliques:")
     max_cliques = nx.find_cliques(G)
     for c in max_cliques:
         print(c)
 
+    """
     print("\nLouvain dendrogram (partions tree):")
     dendrogram = cm.generate_dendrogram(G)
     print("(level\tpartition)")
@@ -50,6 +55,15 @@ def main():
     print("\nLouvain graph modularity:")
     modularity = cm.modularity(partition, G)
     print(modularity)
+    """
+
+    """""
+    g = nx.erdos_renyi_graph(1000, 0.01)
+    dendo = cm.generate_dendrogram(g)
+    for level in range(len(dendo) - 1):
+        print("partition at level", level,
+              "is", cm.partition_at_level(dendo, level))
+    """""
 
 # EXECUTION
 main()
