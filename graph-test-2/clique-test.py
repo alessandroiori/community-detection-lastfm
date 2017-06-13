@@ -8,9 +8,7 @@ path_file = os.getcwd() + '/' + file_name
 
 clique_nodes_number = 7
 
-def main():
-    g = nx.read_edgelist(path_file, nodetype=int, delimiter=delimiter, )
-
+def printGraphInfo(g):
     nodes = g.nodes()
     edges = g.edges()
     isolate_nodes = nx.isolates(g)
@@ -22,34 +20,28 @@ def main():
     print("Isolate nodes: " + str(len(isolate_nodes)) + " Self loop: " + str(len(selfloop_edges)))
     print()
 
-    # nx.draw(g)
-    # plt.show()
 
-    #nx.draw(g, pos=nx.spring_layout(g))
-    """""
-    cliques = nx.enumerate_all_cliques(g)
-    cliques = nx.find_cliques(g)
-    """""
-    cliques_nodes_set = set()
+def main():
+    g = nx.read_edgelist(path_file, nodetype=int, delimiter=delimiter, )
+    printGraphInfo(g)
 
-    cliques = nx.find_cliques_recursive(g)
-    for e in cliques:
-        length = len(e)
-        # print(str(e) + ', ' + str(length))
-        if length >= clique_nodes_number:
-            for n in e:
-                cliques_nodes_set.add(n)
+    k_cliques = list(nx.k_clique_communities(g, clique_nodes_number))
+    cliques_nodes_set = set()  # delete duplicates
+
+    print("Cliques with cardinality >= " + str(clique_nodes_number) + " :")
+    for c in k_cliques:
+        nodes = list(c)
+        for n in nodes:
+            cliques_nodes_set.add(n)
+        print(nodes)
 
     cliques_nodes_list = list(cliques_nodes_set)
 
-    print("Nodes qliques with " + str(clique_nodes_number) + "cardinality : ")
-    print(cliques_nodes_list)
-
     g2 = g.subgraph(cliques_nodes_list)
+    printGraphInfo(g2)
 
     nx.draw(g2)
     plt.show()
-
 
 # EXECUTION
 main()
