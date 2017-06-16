@@ -1,5 +1,11 @@
 
-• Neo4j on Docker
+> Install Docker
+
+• Linux: https://docs.docker.com/engine/installation/linux/ubuntu/#install-using-the-repository
+• OS X: https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac
+
+
+> Neo4j on Docker
 
 docker run \
 --publish=7474:7474 --publish=7687:7687 \
@@ -7,4 +13,4 @@ docker run \
 --volume=$HOME/neo4j/logs:/logs \
 neo4j:3.0
 
-• Web interface: http://localhost:7474
+• Neo4j web interface: http://localhost:7474
