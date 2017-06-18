@@ -19,6 +19,10 @@ import com.datastax.spark.connector.cql.CassandraConnector;
 
 public class TagDAOCassandraImpl implements TagDAO {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private CassandraDAOFactory factory;
 
 	public TagDAOCassandraImpl(CassandraDAOFactory cassandraFactory) {

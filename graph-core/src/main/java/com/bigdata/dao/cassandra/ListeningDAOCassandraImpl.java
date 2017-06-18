@@ -13,6 +13,10 @@ import com.datastax.spark.connector.cql.CassandraConnector;
 
 public class ListeningDAOCassandraImpl implements ListeningDAO {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private CassandraDAOFactory factory;
 
 	public ListeningDAOCassandraImpl(CassandraDAOFactory cassandraFactory) {

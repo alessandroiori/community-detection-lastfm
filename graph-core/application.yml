@@ -1,3 +1,4 @@
-keyspace: "lastfm"
-master: "local[1]"
-host: "localhost"
+cassandra: 
+  keyspace: lastfm
+  master: local[1]
+  host: localhost

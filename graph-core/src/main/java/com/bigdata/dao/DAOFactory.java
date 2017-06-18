@@ -12,6 +12,8 @@ public abstract class DAOFactory implements Serializable{
 	public abstract TagDAO getTagDAO();
 	public abstract ListeningDAO getListeningDAO();
 	public abstract TagAssignementDAO getTagAssignementDAO();
+	public abstract PairDAO getPairDAO();
+
 	
 	public abstract JavaSparkContext createContext();
 	

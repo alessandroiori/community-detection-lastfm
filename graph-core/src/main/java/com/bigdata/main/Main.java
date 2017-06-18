@@ -1,7 +1,7 @@
 package com.bigdata.main;
 
 
-import com.bigdata.fun.Function;
+import com.bigdata.fun.TemplateMethod;
 
 public class Main {
 		
@@ -9,7 +9,7 @@ public class Main {
 		
 		Double thres = Double.parseDouble(args[0].toLowerCase());
 		
-		Function fun = MyContext.getInstance().getSimilarity(thres); 
+		TemplateMethod fun = MyContext.getInstance().getSimilarity(thres); 
 		
 		fun.run();
 		

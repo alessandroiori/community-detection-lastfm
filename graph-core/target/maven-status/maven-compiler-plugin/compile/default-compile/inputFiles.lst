@@ -1,25 +1,31 @@
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/dao/cassandra/ArtistDAOCassandraImpl.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/dao/TagAssignementDAO.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/main/Constants.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/dao/cassandra/ListeningDAOCassandraImpl.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/main/Main.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/dao/cassandra/TagDAOCassandraImpl.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/model/Artist.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/dao/ListeningDAO.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/dao/DAOFactory.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/fun/Similarity.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/yaml/CassandraConfig.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/dao/cassandra/UserDAOCassandraImpl.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/dao/ArtistDAO.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/dao/UserDAO.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/dao/GenericDAO.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/model/UserRating.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/model/Listening.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/model/TagAssignement.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/dao/TagDAO.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/fun/Function.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/model/User.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/main/MyContext.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/model/Tag.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/dao/cassandra/TagAssignementDAOCassandraImpl.java
-/home/daniel/workspace/graph-core/src/main/java/com/bigdata/dao/cassandra/CassandraDAOFactory.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/dao/ArtistDAO.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/main/Main.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/main/MyContext.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/model/User.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/yaml/Configuration.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/model/TagAssignement.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/dao/cassandra/ArtistDAOCassandraImpl.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/fun/SecondPhase.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/dao/PairDAO.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/dao/TagDAO.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/dao/GenericDAO.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/fun/Similarity.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/model/Pair.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/dao/cassandra/CassandraDAOFactory.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/dao/DAOFactory.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/model/Artist.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/yaml/Cassandra.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/dao/cassandra/UserDAOCassandraImpl.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/model/Listening.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/dao/cassandra/ListeningDAOCassandraImpl.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/dao/UserDAO.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/model/Tag.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/fun/FirstPhase.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/main/Constants.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/dao/cassandra/PairDAOCassandraImpl.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/dao/cassandra/TagAssignementDAOCassandraImpl.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/dao/ListeningDAO.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/dao/TagAssignementDAO.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/model/UserRating.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/dao/cassandra/TagDAOCassandraImpl.java
+/home/daniel/Documenti/R3/Big Data/second-project-bigdata/graph-core/src/main/java/com/bigdata/fun/TemplateMethod.java

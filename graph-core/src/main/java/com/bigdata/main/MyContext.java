@@ -1,35 +1,60 @@
 package com.bigdata.main;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+import org.yaml.snakeyaml.Yaml;
+
 import com.bigdata.dao.cassandra.CassandraDAOFactory;
-import com.bigdata.fun.Function;
 import com.bigdata.fun.Similarity;
-import com.bigdata.yaml.CassandraConfig;
+import com.bigdata.fun.TemplateMethod;
+import com.bigdata.yaml.Cassandra;
+import com.bigdata.yaml.Configuration;
 
 public class MyContext {
 	//private final static String FUNCTION_PACKAGE="com.bigdata.fun.";
-	//private final static String YAML_FILE="../application.yml";
+	private final static String YAML_FILE="application.yml";
 	//private final static String DAO="com.bigdata.dao.GenericDAO";
 
 	private static MyContext instance = null;
-	
+	private Configuration conf = null;
+
+
 	public static synchronized MyContext getInstance() {
 		if (instance == null) 
 			instance = new MyContext();
 		return instance;
 	}
 
-	public Function getSimilarity(Double thres) {
+	public TemplateMethod getSimilarity(Double thres) {
+		Configuration config = getConfiguration();
+
 		CassandraDAOFactory factory = new CassandraDAOFactory();
-		CassandraConfig cn = new CassandraConfig();
-		cn.host = "localhost";
-		cn.master = "local[1]";
-		cn.keySpace = "lastfm";
-		factory.setConfiguration(cn);
+		factory.setConfiguration(config.getCassandra());
 		Similarity sim =  new Similarity();
 		sim.setThreshould(thres);
-		sim.setInputDAOFactory(factory);
-			
-		return sim;
+
+		TemplateMethod method = new TemplateMethod();
+		method.setFirst(sim);
+		method.setSecond(sim);
+		method.setInput(factory);
+		method.setOutput(factory);
+		return method;
+	}
+
+	private Configuration getConfiguration() {
+		if (conf == null) {
+			Yaml yaml = new Yaml();  
+			try( InputStream in = Files.newInputStream(Paths.get(YAML_FILE))) {
+				conf = yaml.loadAs( in, Configuration.class );
+				System.out.println( conf.toString() );
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		return conf;
 	}
 
 }

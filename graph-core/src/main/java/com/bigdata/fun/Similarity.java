@@ -16,31 +16,21 @@ import org.apache.spark.mllib.linalg.distributed.RowMatrix;
 
 import com.bigdata.dao.DAOFactory;
 import com.bigdata.model.Listening;
+import com.bigdata.model.Pair;
 import com.bigdata.model.UserRating;
 
 import scala.Tuple2;
 
 
 
-public class Similarity implements Serializable, Function {
+public class Similarity implements Serializable, FirstPhase, SecondPhase {
 
 	private static final long serialVersionUID = 1L;
-	//private static final String DELIMITER = "\t";
 	private Double threshould;
-	private DAOFactory input;
-
-	public void setInputDAOFactory(DAOFactory factory) {
-		this.input = factory;
-	}
-
-	public void setThreshould(Double thres) {
-		this.threshould = thres;
-	}
 
 
-	public void run() {
+	public JavaRDD<Pair> run(JavaSparkContext sc, DAOFactory input) {
 		
-		JavaSparkContext sc = input.createContext();
 		JavaRDD<Listening> listenings = input
 				.getListeningDAO()
 				.getAll(sc, Listening.class);
@@ -80,11 +70,23 @@ public class Similarity implements Serializable, Function {
 		JavaPairRDD<Integer,UserRating> filter = pair1.filter(f -> {
 			return f._2().getRating() >= this.threshould;
 		}); 
-		filter.map(f -> {
-			return f._1 +"\t"+ f._2.getUserId() + "\t" + f._2.getRating();
-		}).saveAsTextFile("~/Scrivania/out");
-		sc.stop();
-		sc.close();
+		
+		
+		return filter.map(f -> {
+			return new Pair(f._1, f._2.getUserId(), f._2.getRating());
+		});
+		
+	}
+
+
+	public void setThreshould(Double thres) {
+		this.threshould = thres;
+	}
+
+
+	@Override
+	public JavaRDD<Pair> run(JavaRDD<Pair> rdd) {
+		return rdd;
 	}
 
 }
