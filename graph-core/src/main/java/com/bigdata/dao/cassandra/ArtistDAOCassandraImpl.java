@@ -10,8 +10,10 @@ import org.apache.spark.api.java.JavaSparkContext;
 import com.bigdata.dao.ArtistDAO;
 import com.bigdata.model.Artist;
 import com.datastax.driver.core.ConsistencyLevel;
-import com.datastax.driver.core.Session;
 import com.datastax.spark.connector.cql.CassandraConnector;
+import com.datastax.spark.connector.japi.CassandraJavaUtil;
+import com.datastax.spark.connector.japi.RDDJavaFunctions;
+import com.datastax.spark.connector.writer.WriteConf;
 
 public class ArtistDAOCassandraImpl implements ArtistDAO {
 
@@ -47,13 +49,14 @@ public class ArtistDAOCassandraImpl implements ArtistDAO {
 	public void remove(JavaRDD<Artist> object) {
 		String tbl = Artist.class.getName().toLowerCase();
 		String table = tbl.substring(tbl.lastIndexOf(".")+1)+"s";
-		CassandraConnector conn = javaFunctions(object).defaultConnector();
-		object.collect().forEach(f-> {
-			Session session = conn.openSession();
-			String query = "DELETE FROM "+factory.getKeySpace()+ "." +table + " WHERE artistid="+f.getArtistid();
-			session.execute(query);
-			session.close();
-		});
+		RDDJavaFunctions<Artist> functions = javaFunctions(object);
+		CassandraConnector conn = functions.defaultConnector();
+		WriteConf wconf = functions.
+				writerBuilder(this.factory.getKeySpace(), table, mapToRow(Artist.class))
+				.withConsistencyLevel(ConsistencyLevel.LOCAL_ONE).writeConf;
+		functions.deleteFromCassandra(factory.getKeySpace(), table, 
+				mapToRow(Artist.class), CassandraJavaUtil.someColumns(), 
+				CassandraJavaUtil.someColumns("artistid"), wconf, conn);
 	}
 
 

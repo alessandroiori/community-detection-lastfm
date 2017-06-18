@@ -70,8 +70,7 @@ public class Similarity implements Serializable, FirstPhase, SecondPhase {
 		JavaPairRDD<Integer,UserRating> filter = pair1.filter(f -> {
 			return f._2().getRating() >= this.threshould;
 		}); 
-		
-		
+
 		return filter.map(f -> {
 			return new Pair(f._1, f._2.getUserId(), f._2.getRating());
 		});

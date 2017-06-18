@@ -13,8 +13,10 @@ import org.apache.spark.api.java.JavaSparkContext;
 import com.bigdata.dao.TagDAO;
 import com.bigdata.model.Tag;
 import com.datastax.driver.core.ConsistencyLevel;
-import com.datastax.driver.core.Session;
 import com.datastax.spark.connector.cql.CassandraConnector;
+import com.datastax.spark.connector.japi.CassandraJavaUtil;
+import com.datastax.spark.connector.japi.RDDJavaFunctions;
+import com.datastax.spark.connector.writer.WriteConf;
 
 
 public class TagDAOCassandraImpl implements TagDAO {
@@ -48,15 +50,16 @@ public class TagDAOCassandraImpl implements TagDAO {
 	}
 	@Override
 	public void remove(JavaRDD<Tag> object) {
-		CassandraConnector conn = javaFunctions(object).defaultConnector();
-		object.collect().forEach(f-> {
-			String tbl = Tag.class.getName().toLowerCase();
-			String table = tbl.substring(tbl.lastIndexOf(".")+1)+"s";
-			Session session = conn.openSession();
-			String query = "DELETE FROM "+factory.getKeySpace()+ "." +table + " WHERE tagid="+f.getTagid();
-			session.execute(query);
-			session.close();
-		});
+		String tbl = Tag.class.getName().toLowerCase();
+		String table = tbl.substring(tbl.lastIndexOf(".")+1)+"s";
+		RDDJavaFunctions<Tag> functions = javaFunctions(object);
+		CassandraConnector conn = functions.defaultConnector();
+		WriteConf wconf = functions.
+				writerBuilder(this.factory.getKeySpace(), table, mapToRow(Tag.class))
+				.withConsistencyLevel(ConsistencyLevel.LOCAL_ONE).writeConf;
+		functions.deleteFromCassandra(factory.getKeySpace(), table, 
+				mapToRow(Tag.class), CassandraJavaUtil.someColumns(), 
+				CassandraJavaUtil.someColumns("tagid"), wconf, conn);
 	}
 
 }

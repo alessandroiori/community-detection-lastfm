@@ -10,8 +10,10 @@ import org.apache.spark.api.java.JavaSparkContext;
 import com.bigdata.dao.PairDAO;
 import com.bigdata.model.Pair;
 import com.datastax.driver.core.ConsistencyLevel;
-import com.datastax.driver.core.Session;
 import com.datastax.spark.connector.cql.CassandraConnector;
+import com.datastax.spark.connector.japi.CassandraJavaUtil;
+import com.datastax.spark.connector.japi.RDDJavaFunctions;
+import com.datastax.spark.connector.writer.WriteConf;
 
 public class PairDAOCassandraImpl implements PairDAO {
 
@@ -49,14 +51,14 @@ public class PairDAOCassandraImpl implements PairDAO {
 	public void remove(JavaRDD<Pair> object) {
 		String tbl = Pair.class.getName().toLowerCase();
 		String table = tbl.substring(tbl.lastIndexOf(".")+1)+"s";
-		CassandraConnector conn = javaFunctions(object).defaultConnector();
-		object.collect().forEach(f-> {
-			Session session = conn.openSession();
-			String query = "DELETE FROM "+factory.getKeySpace()+ "." +table + 
-					" WHERE id1="+f.getId1()+ " and id2="+f.getId2();
-			session.execute(query);
-			session.close();
-		});
+		RDDJavaFunctions<Pair> functions = javaFunctions(object);
+		CassandraConnector conn = functions.defaultConnector();
+		WriteConf wconf = functions.
+				writerBuilder(this.factory.getKeySpace(), table, mapToRow(Pair.class))
+				.withConsistencyLevel(ConsistencyLevel.LOCAL_ONE).writeConf;
+		functions.deleteFromCassandra(factory.getKeySpace(), table, 
+				mapToRow(Pair.class), CassandraJavaUtil.someColumns(), 
+				CassandraJavaUtil.someColumns("id1"), wconf, conn);
 	}
 
 }

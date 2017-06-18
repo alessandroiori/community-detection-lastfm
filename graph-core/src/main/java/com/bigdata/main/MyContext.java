@@ -10,7 +10,6 @@ import org.yaml.snakeyaml.Yaml;
 import com.bigdata.dao.cassandra.CassandraDAOFactory;
 import com.bigdata.fun.Similarity;
 import com.bigdata.fun.TemplateMethod;
-import com.bigdata.yaml.Cassandra;
 import com.bigdata.yaml.Configuration;
 
 public class MyContext {

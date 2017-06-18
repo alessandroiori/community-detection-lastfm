@@ -7,8 +7,10 @@ import org.apache.spark.api.java.JavaSparkContext;
 import com.bigdata.dao.ListeningDAO;
 import com.bigdata.model.Listening;
 import com.datastax.driver.core.ConsistencyLevel;
-import com.datastax.driver.core.Session;
 import com.datastax.spark.connector.cql.CassandraConnector;
+import com.datastax.spark.connector.japi.CassandraJavaUtil;
+import com.datastax.spark.connector.japi.RDDJavaFunctions;
+import com.datastax.spark.connector.writer.WriteConf;
 
 
 public class ListeningDAOCassandraImpl implements ListeningDAO {
@@ -47,13 +49,14 @@ public class ListeningDAOCassandraImpl implements ListeningDAO {
 	public void remove(JavaRDD<Listening> object) {
 		String tbl = Listening.class.getName().toLowerCase();
 		String table = tbl.substring(tbl.lastIndexOf(".")+1)+"s";
-		CassandraConnector conn = javaFunctions(object).defaultConnector();
-		object.collect().forEach(f-> {
-			Session session = conn.openSession();
-			String query = "DELETE FROM "+factory.getKeySpace()+ "." +table + 
-					" WHERE artistid="+f.getArtistid()+ " and userid="+f.getUserid();
-			session.execute(query);
-			session.close();
-		});
+
+		RDDJavaFunctions<Listening> functions = javaFunctions(object);
+		CassandraConnector conn = functions.defaultConnector();
+		WriteConf wconf = functions.
+				writerBuilder(this.factory.getKeySpace(), table, mapToRow(Listening.class))
+				.withConsistencyLevel(ConsistencyLevel.LOCAL_ONE).writeConf;
+		functions.deleteFromCassandra(factory.getKeySpace(), table, 
+				mapToRow(Listening.class), CassandraJavaUtil.someColumns(), 
+				CassandraJavaUtil.someColumns("userid"), wconf, conn);
 	}
 }

@@ -11,8 +11,10 @@ import org.apache.spark.api.java.JavaSparkContext;
 import com.bigdata.dao.UserDAO;
 import com.bigdata.model.User;
 import com.datastax.driver.core.ConsistencyLevel;
-import com.datastax.driver.core.Session;
 import com.datastax.spark.connector.cql.CassandraConnector;
+import com.datastax.spark.connector.japi.CassandraJavaUtil;
+import com.datastax.spark.connector.japi.RDDJavaFunctions;
+import com.datastax.spark.connector.writer.WriteConf;
 
 public class UserDAOCassandraImpl implements UserDAO {
 
@@ -47,12 +49,13 @@ public class UserDAOCassandraImpl implements UserDAO {
 	public void remove(JavaRDD<User> object) {
 		String tbl = User.class.getName().toLowerCase();
 		String table = tbl.substring(tbl.lastIndexOf(".")+1)+"s";
-		CassandraConnector conn = javaFunctions(object).defaultConnector();
-		object.collect().forEach(f-> {
-			Session session = conn.openSession();
-			String query = "DELETE FROM "+factory.getKeySpace()+ "." +table + " WHERE userid="+f.getUserid();
-			session.execute(query);
-			session.close();
-		});
+		RDDJavaFunctions<User> functions = javaFunctions(object);
+		CassandraConnector conn = functions.defaultConnector();
+		WriteConf wconf = functions.
+				writerBuilder(this.factory.getKeySpace(), table, mapToRow(User.class))
+				.withConsistencyLevel(ConsistencyLevel.LOCAL_ONE).writeConf;
+		functions.deleteFromCassandra(factory.getKeySpace(), table, 
+				mapToRow(User.class), CassandraJavaUtil.someColumns(), 
+				CassandraJavaUtil.someColumns("userid"), wconf, conn);
 	}
 }
