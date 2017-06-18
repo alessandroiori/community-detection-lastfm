@@ -8,11 +8,11 @@
 # Cypher query example: MATCH r=(n:User)<-[]->(m:User) WHERE 10 IN n.clique_n AND 10 IN m.clique_n RETURN r
 #
 
+from neo4jdbinfo import user_auth, pw_auth, uri_neo4j_db
+
 from neo4j.v1 import GraphDatabase, basic_auth
 import networkx as nx
 import os
-
-from neo4jdbinfo import user_auth, pw_auth, uri_neo4j_db
 
 delimiter = '\t'
 file_name = 'user_friends.dat'
