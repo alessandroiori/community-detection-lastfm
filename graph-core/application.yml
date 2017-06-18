@@ -1,0 +1,3 @@
+keyspace: "lastfm"
+master: "local[1]"
+host: "localhost"
