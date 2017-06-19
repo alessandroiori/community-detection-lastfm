@@ -11,11 +11,8 @@ import com.bigdata.dao.cassandra.CassandraDAOFactory;
 import com.bigdata.fun.Similarity;
 import com.bigdata.fun.TemplateMethod;
 import com.bigdata.yaml.Configuration;
-
 public class MyContext {
-	//private final static String FUNCTION_PACKAGE="com.bigdata.fun.";
 	private final static String YAML_FILE="application.yml";
-	//private final static String DAO="com.bigdata.dao.GenericDAO";
 
 	private static MyContext instance = null;
 	private Configuration conf = null;

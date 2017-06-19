@@ -1,4 +1,4 @@
 cassandra: 
   keyspace: lastfm
-  master: local[1]
+  master: local[*]
   host: localhost

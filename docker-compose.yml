@@ -1,0 +1,17 @@
+version: "2"
+services:
+  spark:
+    build: .
+    privileged: true
+    container_name: spark
+    image: tenentedan9/spark
+    ports:
+      - "4040:4040"
+    depends_on: 
+      - cassandra
+  cassandra:
+    build: .
+    container_name: cassandra
+    image: tenentedan9/cassandra
+    ports:
+      - "9042:9042"

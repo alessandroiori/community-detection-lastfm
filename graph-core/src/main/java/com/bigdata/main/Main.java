@@ -3,6 +3,7 @@ package com.bigdata.main;
 
 import com.bigdata.fun.TemplateMethod;
 
+
 public class Main {
 		
 	public static void main(String[] args) {
@@ -12,6 +13,8 @@ public class Main {
 		TemplateMethod fun = MyContext.getInstance().getSimilarity(thres); 
 		
 		fun.run();
+			
+		
 		
 	}
 
