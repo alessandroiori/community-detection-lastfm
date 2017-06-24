@@ -1,4 +1,4 @@
-package com.bigdata.yaml;
+package com.bigdata.util.yaml;
 
 import java.io.Serializable;
 
@@ -38,9 +38,9 @@ public class Cassandra  implements Serializable {
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
 		builder.append("Cassandra configuration: ");
-		builder.append("\n\tHost: "+host);
-		builder.append("\n\tMaster: "+master);
-		builder.append("\n\tKey space: "+keyspace);
+		builder.append("\n\tHost:\t"+host);
+		builder.append("\n\tMaster:\t"+master);
+		builder.append("\n\tKey space:\t"+keyspace);
 		
 		return builder.toString();
 	}

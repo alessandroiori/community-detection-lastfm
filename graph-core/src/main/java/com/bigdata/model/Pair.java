@@ -9,6 +9,10 @@ public class Pair implements Serializable {
 	private int id2;
 	private double similarity;
 	
+	public Pair() {
+		
+	}
+	
 	public Pair(int id1, int id2, double similarity) {
 		this.id1 = id1;
 		this.id2 = id2;

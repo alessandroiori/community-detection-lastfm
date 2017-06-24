@@ -7,6 +7,9 @@ public class UserRating implements Serializable  {
 	private static final long serialVersionUID = 1L;
 	private int userId;
 	private double rating;
+	public UserRating() {
+		
+	}
 	
 	public UserRating(int userId, double rating) {
 		this.userId = userId;

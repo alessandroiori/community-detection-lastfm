@@ -10,9 +10,9 @@ import org.apache.spark.api.java.JavaSparkContext;
 import com.bigdata.dao.DAOFactory;
 import com.bigdata.model.Pair;
 
-public class TemplateMethod {
+public class SingleService implements IService{
 	private static final String DELIMITER = "\t";
-private final static String tmp_path = "tmp";
+	private final static String tmp_path = "tmp";
 	private FirstPhase first;
 	private SecondPhase second;	
 	private DAOFactory input;

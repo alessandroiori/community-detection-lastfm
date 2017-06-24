@@ -1,4 +1,4 @@
-service: single
+service: producer
 cassandra: 
   keyspace: lastfm
   master: local[*]

@@ -2,6 +2,7 @@ package com.bigdata.fun;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 import org.apache.spark.api.java.JavaPairRDD;
@@ -30,29 +31,28 @@ public class Similarity implements Serializable, FirstPhase, SecondPhase {
 
 
 	public JavaRDD<Pair> run(JavaSparkContext sc, DAOFactory input) {
-		
+
 		JavaRDD<Listening> listenings = input
 				.getListeningDAO()
 				.getAll(sc, Listening.class);
-		
-		
-		int totalNumberOfUser = 2101;
+
+		int totalNumberOfUser = listenings.max(new DummyComp()).getUserid().intValue()+1;
+		System.out.println(totalNumberOfUser);
 		JavaPairRDD<Integer, UserRating> pair = listenings.mapToPair(r-> {
 			return new Tuple2<Integer, UserRating>(r.getArtistid().intValue(), 
 					new UserRating(r.getUserid().intValue(), r.getListenings().doubleValue()));
 		});
-					
+
 		JavaRDD<Vector> rows = pair.groupByKey()
 				.map(p -> {
-			List<Tuple2<Integer,Double>> list = new ArrayList<>();
+					List<Tuple2<Integer,Double>> list = new ArrayList<>();
 
-			for (UserRating userRating : p._2) {
-				list.add(new Tuple2<>(userRating.getUserId(), userRating.getRating()));
-			}
-			return Vectors.sparse(totalNumberOfUser, list);
-		});
+					for (UserRating userRating : p._2) {
+						list.add(new Tuple2<>(userRating.getUserId(), userRating.getRating()));
+					}
+					return Vectors.sparse(totalNumberOfUser, list);
+				});
 		RowMatrix mat = new RowMatrix(rows.rdd());
-		System.out.println(mat.numRows());
 
 		CoordinateMatrix matr = mat.columnSimilarities();
 		IndexedRowMatrix imat = matr.toIndexedRowMatrix();
@@ -74,7 +74,7 @@ public class Similarity implements Serializable, FirstPhase, SecondPhase {
 		return filter.map(f -> {
 			return new Pair(f._1, f._2.getUserId(), f._2.getRating());
 		});
-		
+
 	}
 
 
@@ -86,6 +86,17 @@ public class Similarity implements Serializable, FirstPhase, SecondPhase {
 	@Override
 	public JavaRDD<Pair> run(JavaRDD<Pair> rdd) {
 		return rdd;
+	}
+
+	class DummyComp implements Comparator<Listening>, Serializable {
+
+		private static final long serialVersionUID = 1L;
+
+		@Override
+		public int compare(Listening o1, Listening o2) {
+			return (int) (o1.getUserid() - o2.getUserid());
+		}
+
 	}
 
 }

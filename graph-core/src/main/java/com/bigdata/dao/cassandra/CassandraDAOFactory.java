@@ -10,7 +10,8 @@ import com.bigdata.dao.PairDAO;
 import com.bigdata.dao.TagAssignementDAO;
 import com.bigdata.dao.TagDAO;
 import com.bigdata.dao.UserDAO;
-import com.bigdata.yaml.Cassandra;
+import com.bigdata.main.MyContext;
+import com.bigdata.util.yaml.Cassandra;
 
 public class CassandraDAOFactory extends DAOFactory {
 
@@ -62,7 +63,7 @@ public class CassandraDAOFactory extends DAOFactory {
 	@Override
 	public JavaSparkContext createContext() {
 		SparkConf config = new SparkConf();
-        config.setAppName("Java API demo");
+        config.setAppName(MyContext.APP_NAME);
         config.setMaster(conf.master);
         config.set("spark.cassandra.connection.host", conf.host);
         return new JavaSparkContext(config);
