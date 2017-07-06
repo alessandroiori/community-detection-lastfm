@@ -1,0 +1,13 @@
+service: producer
+cassandra: 
+  keyspace: lastfm
+  master: local[*]
+  host: localhost
+  
+producer: 
+  servers: localhost:9092
+  topic: similarity
+  
+consumer:
+  servers: localhost:9092
+  topic: similarity
