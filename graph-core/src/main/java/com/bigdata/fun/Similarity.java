@@ -28,16 +28,16 @@ public class Similarity implements Serializable, FirstPhase, SecondPhase {
 
 	private static final long serialVersionUID = 1L;
 	private Double threshould;
+	private DAOFactory dao;
 
 
-	public JavaRDD<Pair> run(JavaSparkContext sc, DAOFactory input) {
+	public JavaRDD<Pair> run(JavaSparkContext sc) {
 
-		JavaRDD<Listening> listenings = input
+		JavaRDD<Listening> listenings = this.dao
 				.getListeningDAO()
 				.getAll(sc, Listening.class);
 
 		int totalNumberOfUser = listenings.max(new DummyComp()).getUserid().intValue()+1;
-		System.out.println(totalNumberOfUser);
 		JavaPairRDD<Integer, UserRating> pair = listenings.mapToPair(r-> {
 			return new Tuple2<Integer, UserRating>(r.getArtistid().intValue(), 
 					new UserRating(r.getUserid().intValue(), r.getListenings().doubleValue()));
@@ -84,8 +84,16 @@ public class Similarity implements Serializable, FirstPhase, SecondPhase {
 
 
 	@Override
-	public JavaRDD<Pair> run(JavaRDD<Pair> rdd) {
-		return rdd;
+	public void run(JavaRDD<Pair> rdd) {
+		
+	}
+	
+	public DAOFactory getDao() {
+		return dao;
+	}
+	
+	public void setDao(DAOFactory dao) {
+		this.dao = dao;
 	}
 
 	class DummyComp implements Comparator<Listening>, Serializable {

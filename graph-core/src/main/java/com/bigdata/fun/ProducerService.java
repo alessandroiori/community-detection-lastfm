@@ -29,7 +29,7 @@ public class ProducerService implements IService, Serializable {
 	@Override
 	public void run() {
 		JavaSparkContext sc = dao.createContext();
-		JavaRDD<Pair> rdd = first.run(sc, dao);
+		JavaRDD<Pair> rdd = first.run(sc);
 
 		KafkaWriter<Pair> writer = new RDDKafkaWriter<Pair>(rdd.rdd(), 
 				scala.reflect.ClassTag$.MODULE$.apply(Pair.class));

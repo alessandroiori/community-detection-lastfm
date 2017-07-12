@@ -2,10 +2,10 @@ import networkx as nx
 from collections import defaultdict
 import os
 
-name = os.getcwd() + '/user_friends'
+name = os.getcwd() + '/cosim.6'
 k = 2
 knum=100000
-G = nx.read_edgelist('%s.dat' % name, comments='Source', delimiter=' ', nodetype=int)
+G = nx.read_edgelist('%s.edges' % name, comments='Source', delimiter='\t', nodetype = int, data=(('type',unicode),))
 G.remove_edges_from(G.selfloop_edges())
 G.remove_nodes_from(nx.isolates(G)) 
 
@@ -19,7 +19,7 @@ os.system(u'python kplex_without_improvments/kplex.py --file="%s.berlowitz" --k=
 
 Kplexes = []
 
-with open('kplex_without_improvments/output_file_connected','r') as f:
+with open('output_file_connected','r') as f:
     lines = f.readlines()
     for l in lines:
         Kplexes += [l.strip().split(',')]

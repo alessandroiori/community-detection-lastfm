@@ -47,7 +47,7 @@ public class ConsumerService implements IService {
 		
 		
 		
-		JavaRDD<Pair> newRDD = second.run(clenedRDD);
+		second.run(clenedRDD);
 		
 
 		dao.getPairDAO().update(newRDD);

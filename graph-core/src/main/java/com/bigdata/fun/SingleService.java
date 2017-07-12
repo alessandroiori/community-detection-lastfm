@@ -22,7 +22,7 @@ public class SingleService implements IService{
 			
 		JavaSparkContext scIn = input.createContext();
 		
-		JavaRDD<Pair> obj = second.run(first.run(scIn, input));
+		JavaRDD<Pair> obj = second.run(first.run(scIn));
 		obj.saveAsTextFile(tmp_path);
 		scIn.stop();
 		scIn.close();
