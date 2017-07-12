@@ -2,7 +2,14 @@
 # al label "cliques" del nodo j, la clique a cui partecipa
 #
 # le clique sono calcolate su cosine similarity >= 0.6
-# e numerate da 1 a N da quella con cardinalita maggiore a minore
+# e numerate da 1 a N da quella con cardinalita maggiore a minoreù
+#
+# MATCH p=(u1:User)-[r1:cosim]-(u2:User)
+# MATCH q=(u1:User)-[r2:listen]->(a:Artist)
+# MATCH f=(u2:User)-[r3:listen]->(a:Artist)
+# WHERE 1 IN u1.cliques AND 1 IN u2.cliques AND toFloat(r1.weight) >= 0.8
+# AND toInt(r2.weight) >= 5000 AND toInt(r3.weight) >= 5000
+# return p, q, f
 #
 
 from neo4jdbinfo import user_auth, pw_auth, uri_neo4j_db
