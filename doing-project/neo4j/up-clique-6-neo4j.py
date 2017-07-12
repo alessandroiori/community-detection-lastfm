@@ -1,7 +1,8 @@
 # per ciascun nodo j-esimo della clique i-esima, aggiungiamo
-# al label clique_number del nodo j, la clique a cui partecipa
+# al label "cliques" del nodo j, la clique a cui partecipa
 #
 # le clique sono calcolate su cosine similarity >= 0.6
+# e numerate da 1 a N da quella con cardinalita maggiore a minore
 #
 
 from neo4jdbinfo import user_auth, pw_auth, uri_neo4j_db
@@ -31,14 +32,26 @@ def run():
 
             for id in usersId:
                 
-                q = 'MATCH (u:User {artistId: {id}})' \
-                    'SET u += {cliques: {c_number}}' \
-                    'RETURN u'
-    
+                q = 'MATCH (u:User {userId: {id}}) \
+                    SET u.cliques = u.cliques + {c_number} \
+                    RETURN u'
+
+                # clean clique field
+                q2 = 'MATCH (u:User {userId: {id}}) \
+                    SET u.cliques = [] \
+                    RETURN u'
+
+                q3 = 'MATCH (u:User {userId: {id}}) \
+                    REMOVE u.cliques \
+                    RETURN u'
+
+                id = id.encode('utf-8')
+                clique_number
                 result = session.run(q, {"id": id, "c_number": clique_number})
                 for r in result:
                     #print("(%s, %s) [%s, %s]" % (r[0]["id"], r[1]["name"], r[2]["url"], r[3]["image_url"]))
                     print(r)
+
 
 # EXECUTION
 run()
