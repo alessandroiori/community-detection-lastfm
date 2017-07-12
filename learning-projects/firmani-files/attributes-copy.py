@@ -5,7 +5,7 @@ import os
 name = os.getcwd() + '/user_friends'
 k = 2
 knum=100000
-G = nx.read_edgelist('%s.dat' % name, comments='Source', delimiter=' ', nodetype=int)
+G = nx.read_edgelist('%s.dat' % name, comments='Source', delimiter='\t', nodetype=int)
 G.remove_edges_from(G.selfloop_edges())
 G.remove_nodes_from(nx.isolates(G)) 
 
@@ -16,6 +16,7 @@ with open('%s.berlowitz' % name,'w') as f:
         f.write('%d\t%d\n' % (u, v))
 
 os.system(u'python kplex_without_improvments/kplex.py --file="%s.berlowitz" --k=%d --num_of_kplex=%d' % (name,k,knum))
+#print(u'python kplex_without_improvments/kplex.py --file="%s.berlowitz" --k=%d --num_of_kplex=%d' % (name,k,knum))
 
 Kplexes = []
 
