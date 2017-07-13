@@ -5,7 +5,7 @@ import csv
 import os
 
 delimiter = '\t'
-file_name = 'user_artists.dat'
+file_name = 'data/dataset/user_artists.dat'
 path_file = os.getcwd() + '/' + file_name
 
 
@@ -13,11 +13,6 @@ def run():
     # Neo4j session
     driver = GraphDatabase.driver(uri_neo4j_db, auth=(user_auth, pw_auth))
     session = driver.session()
-
-    """""
-    g = nx.read_edgelist(path_file, nodetype=int, delimiter=delimiter, )
-    printGraphInfo(g)
-    """""
 
     print("Uploading users-artist edges with weight (# of listen) on neo4j")
     with open(path_file, 'r') as csvfile2:

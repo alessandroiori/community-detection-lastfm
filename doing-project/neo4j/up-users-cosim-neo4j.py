@@ -5,7 +5,7 @@ import csv
 import os
 
 delimiter = '\t'
-file_name = 'cosim/rel.wedges.6.edges'
+file_name = 'data/dataset/cosim/rel.wedges.6.edges'
 path_file = os.getcwd() + '/' + file_name
 
 

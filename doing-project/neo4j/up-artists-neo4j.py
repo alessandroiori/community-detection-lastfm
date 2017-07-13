@@ -6,7 +6,7 @@ import csv
 import os
 
 delimiter = '\t'
-file_name = 'artists.dat'
+file_name = 'data/dataset/artists.dat'
 path_file = os.getcwd() + '/' + file_name
 
 

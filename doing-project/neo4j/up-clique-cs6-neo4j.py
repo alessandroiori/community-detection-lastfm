@@ -19,7 +19,7 @@ import csv
 import os
 
 delimiter = ' '
-file_name = 'clique/clique.6'
+file_name = 'data/dataset/clique/clique.6'
 path_file = os.getcwd() + '/' + file_name
 
 
@@ -53,7 +53,6 @@ def run():
                     RETURN u'
 
                 id = id.encode('utf-8')
-                clique_number
                 result = session.run(q, {"id": id, "c_number": clique_number})
                 for r in result:
                     #print("(%s, %s) [%s, %s]" % (r[0]["id"], r[1]["name"], r[2]["url"], r[3]["image_url"]))
