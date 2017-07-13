@@ -19,7 +19,7 @@ import csv
 import os
 
 delimiter = ' '
-file_name = 'data/dataset/louvain/louvain.6'
+file_name = 'data/dataset/louvain/louvain-sorted.6'
 path_file = os.getcwd() + '/' + file_name
 
 
