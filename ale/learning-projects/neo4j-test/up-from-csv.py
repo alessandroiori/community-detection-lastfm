@@ -18,7 +18,7 @@ def run():
         'FOREACH ' \
         '( uId IN usersId | ' \
         'MERGE (u:Test {userId: uId}) ' \
-        'SET u.test = t ' \
+        'SET u.test = coalesce(u.test,[]) + count' \
         ')' \
         'RETURN usersId, count'
 

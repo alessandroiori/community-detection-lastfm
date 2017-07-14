@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="12461b5e-e8e2-4ff5-ad7a-d7a79a931ba8" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/artists.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/attributes-copy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/attributes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/_snap-removed.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/all.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/build/lib.macosx-10.12-x86_64-3.6/prun.cpython-36m-darwin.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/build/lib.macosx-10.12-x86_64-3.6/prun2.cpython-36m-darwin.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/build/lib.macosx-10.12-x86_64-3.6/prunconnected.cpython-36m-darwin.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/build/lib.macosx-10.12-x86_64-3.6/prunning.cpython-36m-darwin.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/build/temp.macosx-10.12-x86_64-3.6/prun.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/build/temp.macosx-10.12-x86_64-3.6/prun2.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/build/temp.macosx-10.12-x86_64-3.6/prunconnected.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/build/temp.macosx-10.12-x86_64-3.6/prunning.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/kplex-no-improvements/kplex-no-improvements.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/kplex-no-improvements/kplex-no-improvements.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/kplex-no-improvements/kplex-no-improvements.xcodeproj/project.xcworkspace/xcuserdata/devorab.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/kplex-no-improvements/kplex-no-improvements.xcodeproj/xcuserdata/devorab.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/kplex-old.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/kplex.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/my_file2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/net20_30.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/noprun.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/pretty_file.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/prun.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/prun.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/prun2-old.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/prun2.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/prun2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/prunconnected-old.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/prunconnected.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/prunconnected.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/prunning.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/prunning.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/readme.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/setup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/snap-removed.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/kplex_without_improvments/workfile_20_30.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/user_friends.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/neo4jdbinfo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/up-artists-neo4j.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/up-clique-neo4j.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/up-friends-neo4j.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/up-user-artists-neo4j.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/user_artists.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project-old/user_friends.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/artists.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/clique/clique.3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/clique/clique.4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/clique/clique.5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/clique/clique.6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/clique/clique.7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/clique/clique.8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/clique/clique.85" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/clique/clique.9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/clique/clique.95" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/cosim/rel.wedges.1.edges" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/cosim/rel.wedges.2.edges" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/cosim/rel.wedges.3.edges" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/cosim/rel.wedges.4.edges" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/cosim/rel.wedges.5.edges" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/cosim/rel.wedges.6.edges" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/cosim/rel.wedges.7.edges" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/cosim/rel.wedges.8.edges" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/cosim/rel.wedges.85.edges" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/cosim/rel.wedges.9.edges" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/cosim/rel.wedges.95.edges" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/kplex/cosim-sorted.6.2plexes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/kplex/cosim.6.2plexes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/louvain/louvain-sorted.6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/louvain/louvain.3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/louvain/louvain.4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/louvain/louvain.5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/louvain/louvain.6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/louvain/louvain.7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/louvain/louvain.8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/louvain/louvain.85" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/louvain/louvain.9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/louvain/louvain.95" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/user_artists.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/neo4jdbinfo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/up-artists-neo4j.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/up-clique-cs6-neo4j.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/up-kple-cs6-from-csv-neo4j.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/up-kplex-cs6-neo4j.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/up-louvain-cs6-neo4j.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/up-users-artists-neo4j.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/up-users-cosim-neo4j.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/utils/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/utils/cosim-sorted.6.2plexes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/utils/cosim.6.2plexes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/utils/louvain-sorted.6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/utils/louvain.6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/utils/sort-file.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/attributes-copy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/attributes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/_snap-removed.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/all.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/build/lib.macosx-10.12-x86_64-3.6/prun.cpython-36m-darwin.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/build/lib.macosx-10.12-x86_64-3.6/prun2.cpython-36m-darwin.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/build/lib.macosx-10.12-x86_64-3.6/prunconnected.cpython-36m-darwin.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/build/lib.macosx-10.12-x86_64-3.6/prunning.cpython-36m-darwin.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/build/temp.macosx-10.12-x86_64-3.6/prun.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/build/temp.macosx-10.12-x86_64-3.6/prun2.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/build/temp.macosx-10.12-x86_64-3.6/prunconnected.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/build/temp.macosx-10.12-x86_64-3.6/prunning.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/kplex-no-improvements/kplex-no-improvements.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/kplex-no-improvements/kplex-no-improvements.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/kplex-no-improvements/kplex-no-improvements.xcodeproj/project.xcworkspace/xcuserdata/devorab.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/kplex-no-improvements/kplex-no-improvements.xcodeproj/xcuserdata/devorab.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/kplex-old.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/kplex.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/my_file2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/net20_30.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/noprun.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/pretty_file.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/prun.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/prun.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/prun2-old.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/prun2.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/prun2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/prunconnected-old.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/prunconnected.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/prunconnected.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/prunning.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/prunning.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/readme.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/setup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/snap-removed.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/kplex_without_improvments/workfile_20_30.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/user_friends.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/dataset-hetrec2011-lastfm-2k/HetRec 2011 | GroupLens.webloc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/dataset-hetrec2011-lastfm-2k/artists.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/dataset-hetrec2011-lastfm-2k/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/dataset-hetrec2011-lastfm-2k/tags.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/dataset-hetrec2011-lastfm-2k/user_artists.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/dataset-hetrec2011-lastfm-2k/user_friends.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/dataset-hetrec2011-lastfm-2k/user_taggedartists-timestamps.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doing-project/dataset-hetrec2011-lastfm-2k/user_taggedartists.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/dataset-hetrec2011-lastfm-2k/HetRec 2011 | GroupLens.webloc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/dataset-hetrec2011-lastfm-2k/artists.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/dataset-hetrec2011-lastfm-2k/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/dataset-hetrec2011-lastfm-2k/tags.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/dataset-hetrec2011-lastfm-2k/user_artists.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/dataset-hetrec2011-lastfm-2k/user_friends.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/dataset-hetrec2011-lastfm-2k/user_taggedartists-timestamps.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/dataset-hetrec2011-lastfm-2k/user_taggedartists.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/attributes-copy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/attributes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/_snap-removed.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/all.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/build/lib.macosx-10.12-x86_64-3.6/prun.cpython-36m-darwin.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/build/lib.macosx-10.12-x86_64-3.6/prun2.cpython-36m-darwin.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/build/lib.macosx-10.12-x86_64-3.6/prunconnected.cpython-36m-darwin.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/build/lib.macosx-10.12-x86_64-3.6/prunning.cpython-36m-darwin.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/build/temp.macosx-10.12-x86_64-3.6/prun.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/build/temp.macosx-10.12-x86_64-3.6/prun2.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/build/temp.macosx-10.12-x86_64-3.6/prunconnected.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/build/temp.macosx-10.12-x86_64-3.6/prunning.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/kplex-no-improvements/kplex-no-improvements.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/kplex-no-improvements/kplex-no-improvements.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/kplex-no-improvements/kplex-no-improvements.xcodeproj/project.xcworkspace/xcuserdata/devorab.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/kplex-no-improvements/kplex-no-improvements.xcodeproj/xcuserdata/devorab.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/kplex-old.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/kplex.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/my_file2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/net20_30.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/noprun.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/pretty_file.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/prun.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/prun.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/prun2-old.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/prun2.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/prun2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/prunconnected-old.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/prunconnected.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/prunconnected.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/prunning.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/prunning.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/readme.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/setup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/snap-removed.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/kplex_without_improvments/workfile_20_30.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/my_file2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/output_file_connected" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/user_friends.berlowitz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/firmani-files/user_friends.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/graph-test-2/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/graph-test-2/attributes-copy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/graph-test-2/clique-test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/graph-test-2/data.edges" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/graph-test-2/graph-test-2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/graph-test-2/user_friends.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/matplot/matplot-test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/matplot/numpy-test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/matplot/scipy-test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/matplot/test-img-matrix.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/neo4j-test/neo4j-trump.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/neo4j-test/neo4jdbinfo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/neo4j-test/test.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/neo4j-test/up-from-csv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/kafka-docker-master/Dockerfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/kafka-docker-master/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/kafka-docker-master/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/kafka-docker-master/broker-list.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/kafka-docker-master/create-topics.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/kafka-docker-master/docker-compose-single-broker.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/kafka-docker-master/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/kafka-docker-master/download-kafka.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/kafka-docker-master/start-kafka-shell.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/kafka-docker-master/start-kafka.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/kafka_consumer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/kafka_pro_con.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/kafka_producer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/python-kafka-example-master/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/python-kafka-example-master/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/python-kafka-example-master/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/python-kafka-example-master/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/python-kafka-example-master/kafka-example/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/python-kafka-example-master/kafka-example/__main__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/python-kafka-example-master/kafka-example/core.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/python-kafka-example-master/kafka-example/kafkaLib/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/python-kafka-example-master/kafka-example/kafkaLib/consumer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/python-kafka-example-master/kafka-example/kafkaLib/producer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/python-kafka/python-kafka-example-master/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learning-projects/scripts/add-un-directed.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ale/doing-project/code/community-visualization/neo4j/up-kple-cs6-from-csv-neo4j.py" afterPath="$PROJECT_DIR$/ale/doing-project/code/community-visualization/neo4j/up-kple-cs6-from-csv-neo4j.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ale/learning-projects/neo4j-test/up-from-csv.py" afterPath="$PROJECT_DIR$/ale/learning-projects/neo4j-test/up-from-csv.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/second_project_bigdata$up_clique_neo4j.coverage" NAME="up-clique-neo4j Coverage Results" MODIFIED="1497629223493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doing-project" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$up_from_csv.coverage" NAME="up-from-csv Coverage Results" MODIFIED="1500024869671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learning-projects/neo4j-test" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$up_kple_cs6_from_csv_neo4j__1_.coverage" NAME="up-kple-cs6-from-csv-neo4j (1) Coverage Results" MODIFIED="1500027364099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ale/doing-project/code/community-visualization/neo4j" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$graph_test_2.coverage" NAME="graph-test-2 Coverage Results" MODIFIED="1497215278370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/graph-test-2" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$kafka_pro_con.coverage" NAME="kafka_pro_con Coverage Results" MODIFIED="1499420015919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learning-projects/python-kafka" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$up_kple_cs6_from_csv_neo4j.coverage" NAME="up-kple-cs6-from-csv-neo4j Coverage Results" MODIFIED="1500025877586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$up_kplex_cs6_neo4j.coverage" NAME="up-kplex-cs6-neo4j Coverage Results" MODIFIED="1500016481792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doing-project/neo4j" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$kafka_producer.coverage" NAME="kafka_producer Coverage Results" MODIFIED="1499412446374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learning-projects/python-kafka" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$matplot_test.coverage" NAME="matplot-test Coverage Results" MODIFIED="1499944348403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learning-projects/matplot" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$up_users_artists_neo4j.coverage" NAME="up-users-artists-neo4j Coverage Results" MODIFIED="1499867390484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doing-project/neo4j" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$kafka_consumer.coverage" NAME="kafka_consumer Coverage Results" MODIFIED="1499412369943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learning-projects/python-kafka" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$attributes_copy.coverage" NAME="attributes-copy Coverage Results" MODIFIED="1499865775177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learning-projects/firmani-files" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$up_from_csv__1_.coverage" NAME="up-from-csv (1) Coverage Results" MODIFIED="1500027290941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ale/learning-projects/neo4j-test" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$up_artists_neo4j.coverage" NAME="up-artists-neo4j Coverage Results" MODIFIED="1499872314370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doing-project/neo4j" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$up_clique_6_neo4j.coverage" NAME="up-clique-6-neo4j Coverage Results" MODIFIED="1499884507423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doing-project/neo4j" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$sort_file.coverage" NAME="sort-file Coverage Results" MODIFIED="1499933225284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doing-project/neo4j/utils" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$clique_test.coverage" NAME="clique-test Coverage Results" MODIFIED="1497428412577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/graph-test-2" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$up_users_cosim_neo4j.coverage" NAME="up-users-cosim-neo4j Coverage Results" MODIFIED="1499873432450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doing-project/neo4j" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$neo4j_trump.coverage" NAME="neo4j-trump Coverage Results" MODIFIED="1497437513242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neo4j-test" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$up_friends_neo4j.coverage" NAME="up-friends-neo4j Coverage Results" MODIFIED="1497625437116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$up_louvain_6_neo4j.coverage" NAME="up-louvain-6-neo4j Coverage Results" MODIFIED="1499932989557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doing-project/neo4j" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$scipy_test.coverage" NAME="scipy-test Coverage Results" MODIFIED="1499943964412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learning-projects/matplot" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$numpy_test.coverage" NAME="numpy-test Coverage Results" MODIFIED="1499948417927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learning-projects/matplot" />
+    <SUITE FILE_PATH="coverage/second_project_bigdata$up_user_artists_neo4j.coverage" NAME="up-user-artists-neo4j Coverage Results" MODIFIED="1497799147575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doing-project" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="up-kple-cs6-from-csv-neo4j.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ale/doing-project/code/community-visualization/neo4j/up-kple-cs6-from-csv-neo4j.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="up-from-csv.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ale/learning-projects/neo4j-test/up-from-csv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="up-clique-cs6-neo4j.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ale/doing-project/code/community-visualization/neo4j/up-clique-cs6-neo4j.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-384">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="up-kplex-cs6-neo4j.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ale/doing-project/code/community-visualization/neo4j/up-kplex-cs6-neo4j.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="37" column="55" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test-new.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/neo4j/files/test-new.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>2plexes</find>
+      <find>51</find>
+      <find>2</find>
+      <find>2\t</find>
+      <find>47</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/graph-test-2/user_friends.dat" />
+        <option value="$PROJECT_DIR$/graph-test-2/graph-test-2.py" />
+        <option value="$PROJECT_DIR$/graph-test-2/attributes-copy.py" />
+        <option value="$PROJECT_DIR$/firmani-files/attributes-copy.py" />
+        <option value="$PROJECT_DIR$/graph-test-2/clique-test.py" />
+        <option value="$PROJECT_DIR$/firmani-files/kplex_without_improvments/output_file_connected" />
+        <option value="$PROJECT_DIR$/neo4j-test/neo4j-trump.py" />
+        <option value="$PROJECT_DIR$/firmani-files/kplex_without_improvments/setup.py" />
+        <option value="$PROJECT_DIR$/sec-project.py" />
+        <option value="$PROJECT_DIR$/up-on-neo4j.py" />
+        <option value="$PROJECT_DIR$/user_friends.dat" />
+        <option value="$PROJECT_DIR$/neo4j_db_info.py" />
+        <option value="$PROJECT_DIR$/up-friends-neo4j.py" />
+        <option value="$PROJECT_DIR$/learning-projects/graph-test-2/clique-test.py" />
+        <option value="$PROJECT_DIR$/doing-project/README.txt" />
+        <option value="$PROJECT_DIR$/doing-project/up-clique-neo4j.py" />
+        <option value="$PROJECT_DIR$/doing-project/artists.dat" />
+        <option value="$PROJECT_DIR$/doing-project/up-artists-neo4j.py" />
+        <option value="$PROJECT_DIR$/doing-project/user_artists.dat" />
+        <option value="$PROJECT_DIR$/doing-project/up-user-artists-neo4j.py" />
+        <option value="$PROJECT_DIR$/learning-projects/python-kafka/kafka-producer.py" />
+        <option value="$PROJECT_DIR$/learning-projects/python-kafka/init.py" />
+        <option value="$PROJECT_DIR$/learning-projects/python-kafka/__init__.py" />
+        <option value="$PROJECT_DIR$/learning-projects/python-kafka/kafka_producer.py" />
+        <option value="$PROJECT_DIR$/learning-projects/python-kafka/kafka_consumer.py" />
+        <option value="$PROJECT_DIR$/learning-projects/python-kafka/kafka-docker-master/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/learning-projects/python-kafka/kafka-docker-master/docker-compose-single-broker.yml" />
+        <option value="$PROJECT_DIR$/learning-projects/python-kafka/kafka_pro_con.py" />
+        <option value="$PROJECT_DIR$/learning-projects/firmani-files/my_file2" />
+        <option value="$PROJECT_DIR$/learning-projects/firmani-files/output_file_connected" />
+        <option value="$PROJECT_DIR$/learning-projects/firmani-files/attributes-copy.py" />
+        <option value="$PROJECT_DIR$/doing-project/neo4j/user_artists.dat" />
+        <option value="$PROJECT_DIR$/doing-project/neo4j/test-csv-up.py" />
+        <option value="$PROJECT_DIR$/doing-project/neo4j/up-clique-6-neo4j.py" />
+        <option value="$PROJECT_DIR$/doing-project/neo4j/up-louvain-6-neo4j.py" />
+        <option value="$PROJECT_DIR$/doing-project/neo4j/up-users-artists-neo4j.py" />
+        <option value="$PROJECT_DIR$/doing-project/neo4j/up-users-cosim-neo4j.py" />
+        <option value="$PROJECT_DIR$/doing-project/neo4j/up-artists-neo4j.py" />
+        <option value="$PROJECT_DIR$/doing-project/neo4j/up-louvain-cs6-neo4j.py" />
+        <option value="$PROJECT_DIR$/doing-project/neo4j/utils/sort-file.py" />
+        <option value="$PROJECT_DIR$/learning-projects/matplot/scipy-test.py" />
+        <option value="$PROJECT_DIR$/learning-projects/matplot/matplot-test.py" />
+        <option value="$PROJECT_DIR$/learning-projects/matplot/numpy-test.py" />
+        <option value="$PROJECT_DIR$/doing-project/neo4j/up-kplex-cs6-neo4j.py" />
+        <option value="$PROJECT_DIR$/doing-project/neo4j/data/dataset/kplex/cosim-sorted-4k.6.2plexes" />
+        <option value="$PROJECT_DIR$/learning-projects/neo4j-test/test.csv" />
+        <option value="$PROJECT_DIR$/learning-projects/neo4j-test/up-from-csv.py" />
+        <option value="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/up-kple-cs6-from-csv-neo4j.py" />
+        <option value="$USER_HOME$/neo4j/files/test-new.csv" />
+        <option value="$PROJECT_DIR$/ale/learning-projects/neo4j-test/up-from-csv.py" />
+        <option value="$PROJECT_DIR$/ale/doing-project/code/community-visualization/neo4j/up-kple-cs6-from-csv-neo4j.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="second-project-bigdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="second-project-bigdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="second-project-bigdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="second-project-bigdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning-projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="second-project-bigdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="second-project-bigdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning-projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neo4j-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="second-project-bigdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="second-project-bigdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="second-project-bigdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="second-project-bigdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doing-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="second-project-bigdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="second-project-bigdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doing-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="second-project-bigdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="second-project-bigdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doing-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="community-visualization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="second-project-bigdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="second-project-bigdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doing-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="community-visualization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neo4j" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/doing-project/code" />
+      <recent name="$PROJECT_DIR$/doing-project/community-visualization" />
+      <recent name="$PROJECT_DIR$/doing-project/relationship-detection" />
+      <recent name="$PROJECT_DIR$/learning-projects/python-kafka" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/doing-project-old" />
+      <recent name="$PROJECT_DIR$/learning-projects/neo4j-test" />
+      <recent name="$PROJECT_DIR$/doing-project/neo4j/data/dataset/kplex" />
+      <recent name="$PROJECT_DIR$/doing-project/neo4j/utils" />
+      <recent name="$PROJECT_DIR$/doing-project/neo4j/data/dataset/louvain" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.up-kple-cs6-from-csv-neo4j (1)">
+    <configuration default="false" name="up-kplex-cs6-neo4j" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/doing-project/neo4j" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="second-project-bigdata" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/doing-project/neo4j/up-kplex-cs6-neo4j.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="up-from-csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learning-projects/neo4j-test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="second-project-bigdata" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learning-projects/neo4j-test/up-from-csv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="up-kple-cs6-from-csv-neo4j" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="second-project-bigdata" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/up-kple-cs6-from-csv-neo4j.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="up-from-csv (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ale/learning-projects/neo4j-test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="second-project-bigdata" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ale/learning-projects/neo4j-test/up-from-csv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="up-kple-cs6-from-csv-neo4j (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ale/doing-project/code/community-visualization/neo4j" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="second-project-bigdata" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ale/doing-project/code/community-visualization/neo4j/up-kple-cs6-from-csv-neo4j.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="second-project-bigdata" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="second-project-bigdata" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="second-project-bigdata" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="second-project-bigdata" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="second-project-bigdata" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="second-project-bigdata" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="second-project-bigdata" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.up-kplex-cs6-neo4j" />
+      <item index="1" class="java.lang.String" itemvalue="Python.up-from-csv" />
+      <item index="2" class="java.lang.String" itemvalue="Python.up-kple-cs6-from-csv-neo4j" />
+      <item index="3" class="java.lang.String" itemvalue="Python.up-from-csv (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.up-kple-cs6-from-csv-neo4j (1)" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.up-kple-cs6-from-csv-neo4j (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.up-from-csv (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.up-kple-cs6-from-csv-neo4j" />
+        <item index="3" class="java.lang.String" itemvalue="Python.up-from-csv" />
+        <item index="4" class="java.lang.String" itemvalue="Python.up-kplex-cs6-neo4j" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12461b5e-e8e2-4ff5-ad7a-d7a79a931ba8" name="Default" comment="" />
+      <created>1497127963620</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1497127963620</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26332796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.2578125" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42054793" sideWeight="0.7421875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3" sideWeight="0.4875" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.2578125" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42054793" sideWeight="0.7421875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3" sideWeight="0.4875" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26332796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/graph-test/graph-test.py</url>
+          <line>2</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/up-artists-neo4j.py</url>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/doing-project-old/user_artists.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project-old/artists.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project/code/relationship-detection/firmani-files-good/attributes-copy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project-old/up-artists-neo4j.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="32" column="57" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project/neo4j/artists.dat" />
+    <entry file="file://$PROJECT_DIR$/doing-project/neo4j/test-csv-up.py" />
+    <entry file="file://$PROJECT_DIR$/doing-project/neo4j/clique/clique.3" />
+    <entry file="file://$PROJECT_DIR$/doing-project/neo4j/clique/clique.8" />
+    <entry file="file://$PROJECT_DIR$/doing-project/neo4j/cosim/rel.wedges.6.edges" />
+    <entry file="file://$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/neo4jdbinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project/neo4j/user_artists.dat" />
+    <entry file="file://$PROJECT_DIR$/doing-project/neo4j/clique/clique.6" />
+    <entry file="file://$PROJECT_DIR$/doing-project/neo4j/louvain/louvain.6" />
+    <entry file="file://$PROJECT_DIR$/doing-project/neo4j/kplex/cosim.6.2plexes" />
+    <entry file="file://$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/up-clique-cs6-neo4j.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/up-users-artists-neo4j.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/up-users-cosim-neo4j.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project-old/up-user-artists-neo4j.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project-old/up-friends-neo4j.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="50" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-projects/graph-test-2/graph-test-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-623">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-projects/graph-test-2/clique-test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-348">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-projects/graph-test-2/attributes-copy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-618">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-projects/neo4j-test/neo4j-trump.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/up-artists-neo4j.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/louvain/louvain.6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/louvain/louvain-sorted.6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="42" lean-forward="true" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/utils/louvain-sorted.6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/utils/louvain.6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/utils/cosim.6.2plexes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/utils/sort-file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/utils/cosim-sorted.6.2plexes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/up-louvain-cs6-neo4j.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-projects/matplot/scipy-test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-projects/matplot/test-img-matrix.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-projects/matplot/numpy-test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-projects/matplot/matplot-test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project-old/up-clique-neo4j.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="59" column="60" lean-forward="false" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-projects/neo4j-test/test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-projects/neo4j-test/neo4jdbinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/kplex/cosim-sorted-4k.6.2plexes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245115">
+          <caret line="16341" column="9" lean-forward="false" selection-start-line="16341" selection-start-column="9" selection-end-line="16341" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project-old/k-plex-firmani-good/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/data/dataset/kplex/cosim-sorted.6.2plexes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59985">
+          <caret line="3999" column="4" lean-forward="false" selection-start-line="3999" selection-start-column="0" selection-end-line="3999" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning-projects/neo4j-test/up-from-csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/up-kple-cs6-from-csv-neo4j.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doing-project/code/community-visualization/neo4j/up-kplex-cs6-neo4j.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="37" column="54" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/neo4j/files/cosim-sorted-row-num.6.2plexes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/neo4j/files/test-new.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ale/doing-project/code/community-visualization/neo4j/up-clique-cs6-neo4j.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-384">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ale/doing-project/code/community-visualization/neo4j/up-kplex-cs6-neo4j.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="37" column="55" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ale/learning-projects/neo4j-test/up-from-csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ale/doing-project/code/community-visualization/neo4j/up-kple-cs6-from-csv-neo4j.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
