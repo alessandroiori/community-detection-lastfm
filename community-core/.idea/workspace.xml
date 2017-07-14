@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f47a4f3c-3931-4c91-9829-2819d1860e3c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphs/kplex/2plex.6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/clique/raw/clique.3" afterPath="$PROJECT_DIR$/graphs/clique/raw/clique.3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/clique/raw/clique.4" afterPath="$PROJECT_DIR$/graphs/clique/raw/clique.4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/clique/raw/clique.5" afterPath="$PROJECT_DIR$/graphs/clique/raw/clique.5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/clique/raw/clique.6" afterPath="$PROJECT_DIR$/graphs/clique/raw/clique.6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/clique/raw/clique.7" afterPath="$PROJECT_DIR$/graphs/clique/raw/clique.7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/clique/raw/clique.8" afterPath="$PROJECT_DIR$/graphs/clique/raw/clique.8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/clique/raw/clique.85" afterPath="$PROJECT_DIR$/graphs/clique/raw/clique.85" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/clique/raw/clique.9" afterPath="$PROJECT_DIR$/graphs/clique/raw/clique.9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/clique/raw/clique.95" afterPath="$PROJECT_DIR$/graphs/clique/raw/clique.95" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/clique/rel.wedges.3.4-clique.gexf" afterPath="$PROJECT_DIR$/graphs/clique/rel.wedges.3.4-clique.gexf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/clique/rel.wedges.4.4-clique.gexf" afterPath="$PROJECT_DIR$/graphs/clique/rel.wedges.4.4-clique.gexf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/clique/rel.wedges.5.4-clique.gexf" afterPath="$PROJECT_DIR$/graphs/clique/rel.wedges.5.4-clique.gexf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/clique/rel.wedges.6.4-clique.gexf" afterPath="$PROJECT_DIR$/graphs/clique/rel.wedges.6.4-clique.gexf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/clique/rel.wedges.7.4-clique.gexf" afterPath="$PROJECT_DIR$/graphs/clique/rel.wedges.7.4-clique.gexf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/clique/rel.wedges.8.4-clique.gexf" afterPath="$PROJECT_DIR$/graphs/clique/rel.wedges.8.4-clique.gexf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/clique/rel.wedges.85.4-clique.gexf" afterPath="$PROJECT_DIR$/graphs/clique/rel.wedges.85.4-clique.gexf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/clique/rel.wedges.9.4-clique.gexf" afterPath="$PROJECT_DIR$/graphs/clique/rel.wedges.9.4-clique.gexf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/clique/rel.wedges.95.4-clique.gexf" afterPath="$PROJECT_DIR$/graphs/clique/rel.wedges.95.4-clique.gexf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/louvain/raw/louvain.3" afterPath="$PROJECT_DIR$/graphs/louvain/raw/louvain.3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/louvain/raw/louvain.4" afterPath="$PROJECT_DIR$/graphs/louvain/raw/louvain.4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/louvain/raw/louvain.5" afterPath="$PROJECT_DIR$/graphs/louvain/raw/louvain.5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/louvain/raw/louvain.6" afterPath="$PROJECT_DIR$/graphs/louvain/raw/louvain.6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/louvain/raw/louvain.7" afterPath="$PROJECT_DIR$/graphs/louvain/raw/louvain.7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/louvain/raw/louvain.8" afterPath="$PROJECT_DIR$/graphs/louvain/raw/louvain.8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/louvain/raw/louvain.85" afterPath="$PROJECT_DIR$/graphs/louvain/raw/louvain.85" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/louvain/raw/louvain.9" afterPath="$PROJECT_DIR$/graphs/louvain/raw/louvain.9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/louvain/raw/louvain.95" afterPath="$PROJECT_DIR$/graphs/louvain/raw/louvain.95" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/louvain/rel.wedges.3-louvain.gexf" afterPath="$PROJECT_DIR$/graphs/louvain/rel.wedges.3-louvain.gexf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/louvain/rel.wedges.4-louvain.gexf" afterPath="$PROJECT_DIR$/graphs/louvain/rel.wedges.4-louvain.gexf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/louvain/rel.wedges.5-louvain.gexf" afterPath="$PROJECT_DIR$/graphs/louvain/rel.wedges.5-louvain.gexf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/louvain/rel.wedges.6-louvain.gexf" afterPath="$PROJECT_DIR$/graphs/louvain/rel.wedges.6-louvain.gexf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/louvain/rel.wedges.7-louvain.gexf" afterPath="$PROJECT_DIR$/graphs/louvain/rel.wedges.7-louvain.gexf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/louvain/rel.wedges.8-louvain.gexf" afterPath="$PROJECT_DIR$/graphs/louvain/rel.wedges.8-louvain.gexf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/louvain/rel.wedges.85-louvain.gexf" afterPath="$PROJECT_DIR$/graphs/louvain/rel.wedges.85-louvain.gexf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/louvain/rel.wedges.9-louvain.gexf" afterPath="$PROJECT_DIR$/graphs/louvain/rel.wedges.9-louvain.gexf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphs/louvain/rel.wedges.95-louvain.gexf" afterPath="$PROJECT_DIR$/graphs/louvain/rel.wedges.95-louvain.gexf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../learning-projects/firmani-files/my_file2" afterPath="$PROJECT_DIR$/../learning-projects/firmani-files/my_file2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../learning-projects/firmani-files/output_file_connected" afterPath="$PROJECT_DIR$/../learning-projects/firmani-files/output_file_connected" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/matrix.py" afterPath="$PROJECT_DIR$/matrix.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,21 +17,9 @@
       <file leaf-file-name="clique.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clique.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+            <state relative-caret-position="210">
+              <caret line="15" column="32" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="15" selection-end-column="32" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="louvain.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/louvain.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="12" selection-end-column="58" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -78,9 +27,11 @@
       <file leaf-file-name="matrix.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/matrix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-              <folding />
+            <state relative-caret-position="253">
+              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -208,57 +159,8 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="BFS">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="community-core">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="graphs">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="clique">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="BFS">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="community-core">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="graphs">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="clique">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="raw">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -273,6 +175,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -411,7 +314,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
+      <module name="second-project-bigdata" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -516,24 +419,35 @@
     <frame x="48" y="-17" width="1319" height="786" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3372549" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3537255" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.4972549" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37082067" sideWeight="0.507451" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36474165" sideWeight="0.50666666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37082067" sideWeight="0.49254903" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.81155014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.81155014" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36474165" sideWeight="0.49333334" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.4972549" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37082067" sideWeight="0.507451" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37082067" sideWeight="0.49254903" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.81155014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3372549" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.4972549" order="6" side_tool="false" content_ui="tabs" />
@@ -838,8 +752,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/clique.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        <state relative-caret-position="210">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="15" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -865,7 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,9 +792,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/matrix.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="253">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
