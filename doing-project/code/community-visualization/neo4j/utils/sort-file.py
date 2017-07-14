@@ -1,8 +1,8 @@
 import csv
 import os
 
-input_file_name = 'louvain.6'
-output_file_name = 'louvain-sorted.6'
+input_file_name = 'cosim.6.2plexes'
+output_file_name = 'cosim-sorted.6.2plexes'
 
 delimiter = ' '
 
