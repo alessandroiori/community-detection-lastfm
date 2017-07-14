@@ -25,6 +25,17 @@ KPLEX_POS = 1
 LOU_POS = 2
 
 
+def fun(matrix, condition):
+    n = matrix.shape[0]
+    m = matrix.shape[1]
+    a = []
+    for i in range(n):
+        for j in range(m):
+            if i < j:
+                if condition(matrix[i, j, :]):
+                    a.append((i, j))
+    return a
+
 def load_matrix():
     global j, matrix
     with open(louvain_file, "r") as fh:
@@ -45,6 +56,8 @@ def load_matrix():
                 u = clique[i]
                 v = clique[j]
                 mat[u][v][CLIQUE_POS] += 1
+                mat[v][u][CLIQUE_POS] += 1
+
     for lou in louvains:
         n = len(lou)
         for i in range(n):
@@ -52,13 +65,16 @@ def load_matrix():
                 u = lou[i]
                 v = lou[j]
                 mat[u][v][LOU_POS] += 1
+                mat[v][u][LOU_POS] += 1
+
     for plex in kplexes:
         n = len(plex)
         for i in range(n):
             for j in range(i + 1, n):
                 u = plex[i]
                 v = plex[j]
-                mat[i][j][LOU_POS] += 1
+                mat[u][v][KPLEX_POS] += 1
+                mat[v][u][KPLEX_POS] += 1
 
     matrix = np.array(mat).astype(float)
     np.save(mat_file, mat)
@@ -68,8 +84,14 @@ if not os.path.exists(mat_file):
 else:
     matrix = np.load(mat_file).astype(float)
 
+a000 = fun(matrix, condition=lambda x: x[0]==0 and x[1]==0 and x[2]==0)
+a001 = fun(matrix, condition=lambda x: x[0]==0 and x[1]==0 and x[2]==1)
+a010 = fun(matrix, condition=lambda x: x[0]==0 and x[1]>0 and x[2]==0)
+a011 = fun(matrix, condition=lambda x: x[0]==0 and x[1]>0 and x[2]==1)
+a100 = fun(matrix, condition=lambda x: x[0]>0 and x[1]==0 and x[2]==0)
+a101 = fun(matrix, condition=lambda x: x[0]>0 and x[1]==0 and x[2]==1)
+a110 = fun(matrix, condition=lambda x: x[0]>0 and x[1]>0 and x[2]==0)
+a111 = fun(matrix, condition=lambda x: x[0]>0 and x[1]>0 and x[2]==1)
 
-
-
-#plt.imshow(matrix)
-#plt.show()
+plt.imshow(matrix)
+plt.show()
