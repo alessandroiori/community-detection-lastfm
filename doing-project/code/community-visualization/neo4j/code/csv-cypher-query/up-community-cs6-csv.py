@@ -6,8 +6,10 @@ import os
 
 delimiter = ' '
 clique_file = "file:///files/clique/clique-num-filtered.6"
+clique291_file = "file:///files/clique/clique-row-291.6"
 kplex_file = "file:///files/kplex/cosim-sorted-num-filtered.6.2plexes"
 kplex15_file = "file:///files/kplex/cosim-kplex-row-15.2plexes"
+kplex291_file = "file:///files/kplex/cosim-kplex-row-291.2plexes"
 louvain_file = "file:///files/louvain/louvain-num-filtered.6"
 
 
@@ -55,11 +57,10 @@ def run():
         ')' \
         'RETURN usersId, row_count'
 
-    cs = "cs"
-    #  result_clique = session.run(q_kplex, {"file": kplex_file})
-    result_kplex = session.run(q_kplex, {"file": kplex15_file})
+    result_clique = session.run(q_clique, {"file": clique291_file})
+    #result_kplex = session.run(q_kplex, {"file": kplex291_file})
     # result_louvain = session.run(q_louvain, {"file": louvain_file})
-    for r in result_kplex:
+    for r in result_clique:
         # print("(%s, %s) [%s, %s]" % (r[0]["id"], r[1]["name"], r[2]["url"], r[3]["image_url"]))
         print(r)
 
