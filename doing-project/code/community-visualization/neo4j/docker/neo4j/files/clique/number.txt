@@ -1,4 +1,0 @@
-1, 30, 64, 122, 127, 141, 158
-awk '{printf "%s:%s\n",NR,$0}' /path/to/neo4j/files/clique/clique.6 > /path/to/neo4j/files/clique/clique-num.6
-
-awk '/^(1|30|64|122|127|141|158):/ {print $0}' /path/to/neo4j/files/clique/clique-num.6
