@@ -24,6 +24,7 @@ CLIQUE_POS = 0
 KPLEX_POS = 1
 LOU_POS = 2
 
+print("start")
 
 def fun(matrix, condition):
     n = matrix.shape[0]
@@ -92,6 +93,7 @@ a100 = fun(matrix, condition=lambda x: x[0]>0 and x[1]==0 and x[2]==0)
 a101 = fun(matrix, condition=lambda x: x[0]>0 and x[1]==0 and x[2]==1)
 a110 = fun(matrix, condition=lambda x: x[0]>0 and x[1]>0 and x[2]==0)
 a111 = fun(matrix, condition=lambda x: x[0]>0 and x[1]>0 and x[2]==1)
+
 
 plt.imshow(matrix)
 plt.show()
