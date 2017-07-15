@@ -1,5 +1,5 @@
 # Community Detection
-Second project of the master course in [Big Data](http://torlone.dia.uniroma3.it/bigdata/) at Roma Tre University
+Second project of the master course of [Big Data](http://torlone.dia.uniroma3.it/bigdata/) at Roma Tre University
 
 ## Dataset 
 - [LastFM](https://grouplens.org/datasets/hetrec-2011/) by GroupLens
