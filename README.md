@@ -4,6 +4,10 @@ Second project of the master course of [Big Data](http://torlone.dia.uniroma3.it
 ## Dataset 
 - [LastFM](https://grouplens.org/datasets/hetrec-2011/) by GroupLens
 
+## Wiki
+- [Slides](https://github.com/alessandroiori/community-detection-lastfm/blob/master/presentation-second-project-bigdata.pdf) 
+- [Doc](https://github.com/alessandroiori/community-detection-lastfm/blob/master/Secondo%20Progetto%20-%20Big%20Data.pdf) 
+
 ## Algorithms
 - Cosine similarity
 - Clique
