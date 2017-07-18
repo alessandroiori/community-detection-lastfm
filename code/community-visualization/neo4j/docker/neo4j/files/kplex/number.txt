@@ -1,6 +1,0 @@
-1,354,1825,4345,5142,5496, 15
-
-awk '/^(1|354|1825|4345|5142|5496):/ {print $0}' /path/to/neo4j/files/kplex/cosim-sorted-num.6.2plexes > /path/to/neo4j/files/kplex/cosim-sorted-num-filtered.6.2plexes
-
-
-1, 354
